@@ -29,6 +29,7 @@ hr{
     color: aliceblue;
 
 }
+/* =================================t2=================================== */
 .task2{
     background-color: deepskyblue;
     height: 70rem;
@@ -109,6 +110,7 @@ li:last-child{
     background-color: red;
     color: white;
 }
+/* ================================t3================================== */
 h1{
     color: white;
     font-size: larger;
