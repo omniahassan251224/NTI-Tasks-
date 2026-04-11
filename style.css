@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding : 0;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    /* box-sizing: border-box; */
+    font-size: large;
+
+}
+.task1 span{
+
+    text-transform: uppercase;
+    letter-spacing: 40px;
+    display: block;
+    padding: 3%;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+
+
+}
+hr{
+    border: 7px solid rgb(12, 173, 176);
+    margin: auto;
+    width: 40%;
+}
+.task1{
+    background-color: black;
+    color: aliceblue;
+
+}
+.task2{
+    background-color: deepskyblue;
+    height: 70rem;
+    align-items: center;
+    display: flex;
+}
+.container{
+
+    width: 30%;
+    background-color: white;
+    border-radius: 0.3rem;
+    margin: auto;
+    align-items: center;
+    padding:1rem ;
+
+    
+   
+
+}
+.screen{
+
+    width: 85%;
+    padding: 5%;
+    background-color: rgb(244, 236, 236);
+    margin-top: 8px ;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.3rem;
+    box-shadow: rgb(173, 173, 161) 0px 5px 40px;
+    text-align: end;
+    font-weight: bolder;
+    font-size: 25px;
+
+    
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 8px;
+  padding: 0.3rem;
+  margin-bottom: 8px;
+
+  
+
+}
+.list li {
+    width: 13%;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(105, 152, 167);
+    padding: 0.4rem;
+    border-radius : 5px; 
+    font-weight: bolder;
+    
+    
+
+}
+.list .op{
+    background-color: gold;
+    
+}
+.container button{
+    
+    width: 30%;
+    height: 2rem;
+    margin-left: 0.6rem  ;
+    margin-top: 0.8rem;
+    display: block;
+    border-radius:5px ;
+    background-color: aqua;
+   border: none; 
+    
+}
+li:last-child{
+    background-color: red;
+    color: white;
+}
+h1{
+    color: white;
+    font-size: larger;
+    background-color: red;
+}
+h2,h1,h3,h4,legend{
+
+   padding: 0.8rem 0.8rem 0.2rem 0.8rem;
+
+}  
+.container3 h4{
+
+    color: red;
+    font-size: small;
+
+} 
+.container-fluide{
+    background-color: rgb(167, 165, 165);
+    padding: 2rem;
+
+}
+.container3{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+
+}
+form h3{
+    background-color: rgb(167, 165, 165);
+
+}
+form{
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: rgb(232, 227, 227);
+    
+}
+input , select,fieldset,textarea{
+ margin: 0.8rem;
+ text-align: justify;
+ width: 300px;
+
+}
+fieldset{
+   
+    background-color: white;
+    display:block;
+     margin-right: 0px; 
+    margin-left: 9.5rem ;
+    /* <----- */
+    
+    
+    
+    
+}
+fieldset div input{
+    width: fit-content;
+}
+
+.inputs{
+    width: 70%;
+    margin: auto;
+    
+}
+form span{
+    color: red;
+}
+label {
+  display: inline-block;
+  width: 150px;
+}
+input[type="file"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+.buttons{
+    width: 40%;
+    margin: auto;
+    padding: 8%;
+}
+button{
+    margin: 0 2rem;
+    padding: .6rem;
+    padding-left: 0.8rem;
+    background-color: red;
+    color: white ;
+    border: none;
+    border-radius: 0.6rem;
+}
+
